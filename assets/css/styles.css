@@ -1,0 +1,37 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.inter-bold {
+  font-weight: 700;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  min-height: 100vh;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+header {
+  grid-area: header;
+  background-color: antiquewhite;
+}
+
+aside {
+  display: none;
+  background-color: aqua;
+}
+
+main {
+  grid-area: main;
+  background-color: aquamarine;
+}
+
+footer {
+  grid-area: footer;
+  background-color: blanchedalmond;
+}
