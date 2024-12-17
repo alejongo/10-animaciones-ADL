@@ -48,6 +48,7 @@ main {
   /* background-color: aquamarine; */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-rows: 1fr 1fr 1fr;
   padding: 2rem;
   gap: 1.5rem;
 }
@@ -55,7 +56,6 @@ main {
 .pokemon-card {
   /* background-color: antiquewhite; */
   outline: 1px solid #9ca3af;
-  max-height: 200px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
